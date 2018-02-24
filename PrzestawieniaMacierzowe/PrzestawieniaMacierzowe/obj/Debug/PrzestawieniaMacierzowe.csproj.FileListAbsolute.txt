@@ -1,0 +1,15 @@
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\PrzestawieniaMacierzowe\PrzestawieniaMacierzowe\bin\Debug\PrzestawieniaMacierzowe.exe.config
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\PrzestawieniaMacierzowe\PrzestawieniaMacierzowe\bin\Debug\PrzestawieniaMacierzowe.exe
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\PrzestawieniaMacierzowe\PrzestawieniaMacierzowe\bin\Debug\PrzestawieniaMacierzowe.pdb
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\PrzestawieniaMacierzowe\PrzestawieniaMacierzowe\obj\Debug\PrzestawieniaMacierzowe.csprojResolveAssemblyReference.cache
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\PrzestawieniaMacierzowe\PrzestawieniaMacierzowe\obj\Debug\MainWindow.g.cs
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\PrzestawieniaMacierzowe\PrzestawieniaMacierzowe\obj\Debug\App.g.cs
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\PrzestawieniaMacierzowe\PrzestawieniaMacierzowe\obj\Debug\PrzestawieniaMacierzowe_MarkupCompile.cache
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\PrzestawieniaMacierzowe\PrzestawieniaMacierzowe\obj\Debug\PrzestawieniaMacierzowe_MarkupCompile.lref
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\PrzestawieniaMacierzowe\PrzestawieniaMacierzowe\obj\Debug\MainWindow.baml
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\PrzestawieniaMacierzowe\PrzestawieniaMacierzowe\obj\Debug\PrzestawieniaMacierzowe.g.resources
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\PrzestawieniaMacierzowe\PrzestawieniaMacierzowe\obj\Debug\PrzestawieniaMacierzowe.Properties.Resources.resources
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\PrzestawieniaMacierzowe\PrzestawieniaMacierzowe\obj\Debug\PrzestawieniaMacierzowe.csproj.GenerateResource.Cache
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\PrzestawieniaMacierzowe\PrzestawieniaMacierzowe\obj\Debug\PrzestawieniaMacierzowe.csproj.CoreCompileInputs.cache
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\PrzestawieniaMacierzowe\PrzestawieniaMacierzowe\obj\Debug\PrzestawieniaMacierzowe.exe
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\PrzestawieniaMacierzowe\PrzestawieniaMacierzowe\obj\Debug\PrzestawieniaMacierzowe.pdb

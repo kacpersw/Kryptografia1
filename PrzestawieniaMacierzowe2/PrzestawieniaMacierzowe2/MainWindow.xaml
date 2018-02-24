@@ -1,0 +1,34 @@
+﻿<Window x:Class="PrzestawieniaMacierzowe2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PrzestawieniaMacierzowe2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBox Name="EncryptKey" HorizontalContentAlignment="Center">CONVENIENCE</TextBox>
+        <TextBox Name="DecryptKey" Grid.Column="1" HorizontalContentAlignment="Center">CONVENIENCE</TextBox>
+
+        <TextBox Grid.Row="1" Name="EncryptInput" HorizontalContentAlignment="Center">HEREISASECRETMESSAGEENCIPHEREDBYTRANSPOSITION</TextBox>
+        <TextBox Grid.Row="1" Name="DecryptInput" Grid.Column="1" HorizontalContentAlignment="Center">HECRNCEYIISEPSGDIRNTOAAESRMPNSSROEEBTETIAEEHS</TextBox>
+
+        <Button Grid.Row="2" Click="Encrypt" HorizontalContentAlignment="Center">Zaszyfruj</Button>
+        <Button Grid.Row="2" Grid.Column="1" Click="Decrypt" HorizontalContentAlignment="Center">Odszyfruj</Button>
+
+        <TextBox Grid.Row="3" Name="EncryptedText" HorizontalContentAlignment="Center"></TextBox>
+        <TextBox Grid.Row="3" Grid.Column="1" Name="DecryptedText" HorizontalContentAlignment="Center"></TextBox>
+    </Grid>
+</Window>

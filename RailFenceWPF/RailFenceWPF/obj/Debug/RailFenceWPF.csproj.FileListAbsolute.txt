@@ -1,0 +1,15 @@
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\RailFenceWPF\RailFenceWPF\bin\Debug\RailFenceWPF.exe.config
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\RailFenceWPF\RailFenceWPF\bin\Debug\RailFenceWPF.exe
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\RailFenceWPF\RailFenceWPF\bin\Debug\RailFenceWPF.pdb
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\RailFenceWPF\RailFenceWPF\obj\Debug\RailFenceWPF.csprojResolveAssemblyReference.cache
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\RailFenceWPF\RailFenceWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\RailFenceWPF\RailFenceWPF\obj\Debug\App.g.cs
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\RailFenceWPF\RailFenceWPF\obj\Debug\RailFenceWPF_MarkupCompile.cache
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\RailFenceWPF\RailFenceWPF\obj\Debug\RailFenceWPF_MarkupCompile.lref
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\RailFenceWPF\RailFenceWPF\obj\Debug\MainWindow.baml
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\RailFenceWPF\RailFenceWPF\obj\Debug\RailFenceWPF.g.resources
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\RailFenceWPF\RailFenceWPF\obj\Debug\RailFenceWPF.Properties.Resources.resources
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\RailFenceWPF\RailFenceWPF\obj\Debug\RailFenceWPF.csproj.GenerateResource.Cache
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\RailFenceWPF\RailFenceWPF\obj\Debug\RailFenceWPF.csproj.CoreCompileInputs.cache
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\RailFenceWPF\RailFenceWPF\obj\Debug\RailFenceWPF.exe
+C:\Users\Kacper\OneDrive\Semestr VI\Bezpieczeństwo Sieci Komputerowych\PS 1\RailFenceWPF\RailFenceWPF\obj\Debug\RailFenceWPF.pdb
