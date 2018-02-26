@@ -30,7 +30,7 @@ namespace PrzestawieniaMacierzowe
 
         private void Encrypt(object sender, RoutedEventArgs e)
         {
-             var keys = new int[] { 2, 3, 0, 4, 1 };
+            var keys = new int[] { 2, 3, 0, 4, 1 };
             // var keys = new int[] { 2, 0, 3, 1 }; // It's for example in pdf
 
             var length = EncryptInput.Text.Length;
@@ -65,7 +65,7 @@ namespace PrzestawieniaMacierzowe
                     encryptedText[encryptedTextLength] = encryptedTextHelper[helperIterator];
                     encryptedTextLength++;
                 }
-                helperIterator ++;
+                helperIterator++;
             }
 
             EncryptedText.Text = new string(encryptedText);
@@ -73,7 +73,8 @@ namespace PrzestawieniaMacierzowe
 
         private void Decrypt(object sender, RoutedEventArgs e)
         {
-            var keys = new int[] { 2, 3, 0, 4, 1 };
+            //var keys = new List<int> { 2, 0, 3, 1 };
+            var keys = new List<int> { 2, 3, 0, 4, 1 };
 
             var length = DecryptInput.Text.Length;
             var text = DecryptInput.Text;
@@ -89,11 +90,26 @@ namespace PrzestawieniaMacierzowe
             {
                 var counter = key;
 
-                for (var i = counterHelper; i < lengthToArray; i += d, counter += d)
+                for (var i = counterHelper; i < lengthToArray - d; i += d, counter += d)
                 {
                     if (i < length)
                         decryptedTextHelper[counter] = text[i];
                 }
+                counterHelper++;
+            }
+
+            for (int i = 0; i < lengthToArray - length; i++)
+            {
+                keys.Remove(keys.Max());
+            }
+
+            counterHelper = lengthToArray - d;
+            var counterToLastRow = lengthToArray - d;
+            foreach (var key in keys)
+            {
+                if (counterHelper < length)
+                    decryptedTextHelper[counterToLastRow + key] = text[counterHelper];
+
                 counterHelper++;
             }
 
