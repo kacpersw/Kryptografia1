@@ -65,43 +65,62 @@ namespace PrzestawieniaMacierzowe2
 
             //get words
 
-            var words = new List<string>();
-            while (textLength != 0)
+            if (textLength < key.Length)
             {
-                var floatScore = (float)textLength / keyLength;
-                var intScore = textLength / keyLength;
-
-                var wordLength = (floatScore > (float)intScore) ? intScore + 1 : intScore;
-                words.Add(textHelper.Substring(0, wordLength));
-                textHelper = textHelper.Substring(wordLength, textHelper.Length - wordLength);
-                textLength = textHelper.Length;
-                keyLength--;
-            }
-
-            var wordsInGoodOrder = new List<string>();
-
-            for (int i = 0; i < keys.Length; i++)
-            {
-                wordsInGoodOrder.Add(words[keys[i]]);
-            }
-
-            var counter = 0;
-            var positionInWord = 0;
-            while (counter != text.Length)
-            {
-                foreach (var word in wordsInGoodOrder)
+                var decryptedTextInChar = new char[textLength];
+                var counter = 0;
+                var neededKeys = SortKeys(textLength, keys);
+                foreach (var k in neededKeys)
                 {
-                    if (positionInWord < word.Length)
+                    if (GetPosition(keys, k) < textLength)
                     {
-                        decryptedText += word[positionInWord];
+                        var a = GetPosition(keys, k);
+                        decryptedTextInChar[a] = text[counter];
                         counter++;
                     }
                 }
 
-                positionInWord++;
+                DecryptedText.Text = new string(decryptedTextInChar);
             }
+            else
+            {
+                var words = new List<string>();
+                while (textLength != 0)
+                {
+                    var floatScore = (float)textLength / keyLength;
+                    var intScore = textLength / keyLength;
 
-            DecryptedText.Text = decryptedText;
+                    var wordLength = (floatScore > (float)intScore) ? intScore + 1 : intScore;
+                    words.Add(textHelper.Substring(0, wordLength));
+                    textHelper = textHelper.Substring(wordLength, textHelper.Length - wordLength);
+                    textLength = textHelper.Length;
+                    keyLength--;
+                }
+
+                var wordsInGoodOrder = new List<string>();
+
+                for (int i = 0; i < keys.Length; i++)
+                {
+                    wordsInGoodOrder.Add(words[keys[i]]);
+                }
+
+                var counter = 0;
+                var positionInWord = 0;
+                while (counter != text.Length)
+                {
+                    foreach (var word in wordsInGoodOrder)
+                    {
+                        if (positionInWord < word.Length)
+                        {
+                            decryptedText += word[positionInWord];
+                            counter++;
+                        }
+                    }
+
+                    positionInWord++;
+                }
+                DecryptedText.Text = decryptedText;
+            }
         }
 
         private int[] GetKeys(char[] key)
@@ -137,6 +156,13 @@ namespace PrzestawieniaMacierzowe2
                     return i;
             }
             return 0;
+        }
+
+        private int[] SortKeys(int length, int[] keys)
+        {
+            var keysToSort = keys.Take(length);
+
+            return keysToSort.OrderBy(k => k).ToArray();
         }
     }
 }
